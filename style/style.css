@@ -3,20 +3,24 @@
 body {
 	font-family: arial, "Times New Roman", sans-serif;
 	background-color: #222222;
+	color:#FA7090;
 }
 
-div {
+.title {
 	font-size: 35px;
 	color: #222222;
 	background-color: #FA7090;
 	text-align: center;
 }
 
-li {
-	width : max-content;
+.img {
+	text-align: center;
+}
+
+.link-list {
 	list-style: none;
 }
 
 a {
-	color: #22ABFF;
+	color: #22AB00;
 }
