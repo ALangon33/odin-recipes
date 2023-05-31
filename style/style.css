@@ -1,0 +1,22 @@
+/* style.css */
+
+body {
+	font-family: arial, "Times New Roman", sans-serif;
+	background-color: #222222;
+}
+
+div {
+	font-size: 35px;
+	color: #222222;
+	background-color: #FA7090;
+	text-align: center;
+}
+
+li {
+	width : max-content;
+	list-style: none;
+}
+
+a {
+	color: #22ABFF;
+}
