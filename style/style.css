@@ -14,7 +14,7 @@ body {
 	font-family: arial, "Times New Roman", sans-serif;
 	background-color: #222222;
 	color:#FA7090;
-	margin:45px 100px 45px 100px;
+	margin:0px 50px;
 }
 
 .title {
@@ -30,11 +30,12 @@ body {
 
 .link-list {
 	padding: 0px;
-	margin:10px 100px 10px 100px;
+	margin:10px;
 	text-align: center;
 	list-style: none;
 	padding-top: 4px;
 	padding-bottom: 4px;
+
 }
 
 .disclaimer {
@@ -53,6 +54,11 @@ body {
 	margin:50px
 }
 
+.return {
+	margin:0;
+	padding:20px;
+}
+
 h2 {
 	font-size:40px;
 	text-align: center;
@@ -67,4 +73,7 @@ a {
 	font-size: 27px;
 	text-align: center;
 	color: #22AB00;
+	padding: 20px;
+	margin: 20px;
+
 }
