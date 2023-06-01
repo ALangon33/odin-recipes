@@ -14,8 +14,8 @@ html {
 
 body {
   font-family: arial, "Times New Roman", sans-serif;
-  background-color: #222222;
-  color: #fa7090;
+  background-color:rgb(247, 237, 223);
+  color: #00c499;
 }
 
 h2 {
@@ -26,7 +26,7 @@ h2 {
 p {
   text-align: center;
   margin: 5px;
-  padding: 20px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 ol,
@@ -49,49 +49,60 @@ a {
 }
 
 a:hover {
-	color:antiquewhite;
+	color:#FFFFFF;
 }
 
-button {
-	color:#222222;
-	background-color: #22ab00;
-	display:block;
-	height:50px;
-	width: 500px;
-	font-size: 25px;
-}
 
-button:hover {
-	background-color: #228800;
-}
 
 .title {
   margin: 20px 20px 0px 20px;
   font-size: 35px;
   color: #222222;
-  background-color: #fa7090;
+  background-color: #00c499;
   text-align: center;
+}
+
+.recipe-card,
+.desc-card,
+.ing-card,
+.step-card,
+.button-sector {
+  margin: 10px 20px;
+  padding: 10px 0px;
+  background-color: #222222;
+}
+
+img {
+  padding:30px;
+  background-color: #222222;
+}
+
+h3 {
+  padding-left: 20px;
 }
 
 .img {
   text-align: center;
-  margin: 20px;
+  padding: 10px;
+  margin: 20px auto;
 }
 
 
 .disclaimer {
-  margin: 20px;
   font-size: 40px;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 .fine-print {
   font-size: 15px;
-  margin: 20px;
+  margin: 0 0;
+  padding: 10px 0;
 }
 
 .breakline {
   height: 5px;
-  background-color: #fa7090;
+  background-color: #00c499;
   margin: 20px;
 }
 
@@ -101,16 +112,41 @@ button:hover {
 }
 
 .link-list a {
-	color: #22ab00;
+	color: #00c499;
 }
 
 
 .link-list a:hover {
-  color: #228800;
+  color: #FFFFFF;
 }
 
+.button-sector {
+  text-align: center;
+}
 
 .button-sector button {
-	width: 25%;
-	margin: 10px auto;
+	display: inline;
+  width: 40%;
+	margin: 10px 30px;
+}
+
+button {
+	color:#222222;
+	background-color: #00c499;
+  margin: 20px;
+	height:50px;
+	width: 500px;
+	font-size: 25px;
+}
+
+button:hover {
+	background-color: #01b890;
+}
+
+.disclaim-card {
+  margin: 0 250px;
+  padding: 0 0;
+  border-style:solid;
+  border-width:5px;
+  border-color:#00c499;
 }
