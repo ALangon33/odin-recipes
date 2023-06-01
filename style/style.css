@@ -8,58 +8,15 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   font-family: arial, "Times New Roman", sans-serif;
   background-color: #222222;
   color: #fa7090;
-  margin: 0px 50px;
 }
-
-.title {
-  font-size: 35px;
-  color: #222222;
-  background-color: #fa7090;
-  text-align: center;
-}
-
-.img {
-  text-align: center;
-}
-
-.link-list {
-  padding: 10px;
-  margin: 15px;
-  text-align: center;
-  list-style: none;
-}
-
-.link-list a:hover {
-  color: #228800;
-}
-
-.disclaimer {
-  margin: 50px;
-  font-size: 40px;
-}
-
-.fine-print {
-  font-size: 15px;
-  margin: 50px;
-}
-
-.breakline {
-  height: 5px;
-  background-color: #fa7090;
-  margin: 50px;
-}
-
-.return {
-  margin: 0px;
-  padding: 20px;
-}
-
 
 h2 {
   font-size: 40px;
@@ -69,18 +26,91 @@ h2 {
 p {
   text-align: center;
   margin: 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+ol,
+ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+li {
+	margin-left:50px;
+	list-style-position: outside;
+	padding-left: 20px;
+	font-size: 20px;
 }
 
 a {
-  font-size: 27px;
-  text-align: center;
-  color: #22ab00;
-  padding: 20px;
-	text-align: center;
-	margin: 0px;
-	display:block;
+  font-size: 25px;
+  color: #222;
+  display: block;
 }
 
 a:hover {
+	color:antiquewhite;
+}
+
+button {
+	color:#222222;
+	background-color: #22ab00;
+	display:block;
+	height:50px;
+	width: 500px;
+	font-size: 25px;
+}
+
+button:hover {
+	background-color: #228800;
+}
+
+.title {
+  margin: 20px 20px 0px 20px;
+  font-size: 35px;
+  color: #222222;
+  background-color: #fa7090;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.disclaimer {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.fine-print {
+  font-size: 15px;
+  margin: 20px;
+}
+
+.breakline {
+  height: 5px;
+  background-color: #fa7090;
+  margin: 20px;
+}
+
+.link-list {
+  list-style: none;
+	margin: 0px;
+}
+
+.link-list a {
+	color: #22ab00;
+}
+
+
+.link-list a:hover {
   color: #228800;
+}
+
+
+.button-sector button {
+	width: 25%;
+	margin: 10px auto;
 }
